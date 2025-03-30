@@ -21,6 +21,7 @@ unzip $SOURCE_ZIP
 # 配置环境变量并写入到 /etc/profile
 echo "export MAVEN_HOME=$MAVEN_HOME" >> /etc/profile
 echo 'export PATH=$PATH:$MAVEN_HOME/bin' >> /etc/profile
+export MAVEN_HOME PATH
 
 # 使环境变量配置立即生效
 source /etc/profile
